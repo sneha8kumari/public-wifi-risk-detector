@@ -36,3 +36,9 @@ pip-delete-this-directory.txt
 .env.development.local
 .env.test.local
 .env.production.local
+
+# SQLite database (runtime data, not source)
+backend/risk_history.db
+
+# Backend secrets
+backend/.env
